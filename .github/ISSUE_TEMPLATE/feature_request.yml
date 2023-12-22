@@ -18,7 +18,7 @@ body:
       label: Type of request?
       description: Select the type of you request
       options:
-        - New Feature (Default)
+        - New Feature
       default: 0
     validations:
       required: true
