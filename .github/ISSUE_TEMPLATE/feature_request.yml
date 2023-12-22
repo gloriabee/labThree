@@ -1,0 +1,42 @@
+name:Feature Bug report
+description: Add a feature
+title: "Feature: "
+body:
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: What is your name?
+      placeholder: ex. email@example.com
+      value: "Thanks for taking the time to fill out this bug report!"
+    validations:
+      required: false
+  - type: dropdown
+    id: request
+    attributes:
+      label: Type of request?
+      description: Select the type of you request
+      options:
+        - 1.0.2 (Default)
+        - 1.0.3 (Edge)
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What is the OS which you want to suggest?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: textarea
+    id: logs
+    attributes:
+      label: What are the details of your suggestion?
+      description: Explain what do you want
+      value:"Feature details"
+      render: shell
+  
