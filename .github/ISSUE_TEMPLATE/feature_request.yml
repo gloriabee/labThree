@@ -17,8 +17,7 @@ body:
       label: Type of request?
       description: Select the type of you request
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - New Feature (Default)
       default: 0
     validations:
       required: true
