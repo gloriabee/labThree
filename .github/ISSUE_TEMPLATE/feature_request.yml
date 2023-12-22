@@ -37,6 +37,6 @@ body:
     attributes:
       label: What are the details of your suggestion?
       description: Explain what do you want
-      value:"Feature details"
+      value: "Feature details"
       render: shell
   
